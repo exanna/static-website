@@ -1,0 +1,74 @@
+.header {
+    background-image: url('../images/Background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 85vh;
+    position: relative;
+    &__info {
+        margin-top: 140px;
+        margin-left: 15%;
+        max-width: 450px;
+    }
+    &__title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: $main-orange;
+        font-size: 34px;
+    }
+    &__paragraph {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 18px;
+        color: $gray;
+    }
+    
+    &__btn {
+        border-radius: 40px;
+        background-color: $main-orange;
+        color: $main-white;
+        padding: 15px 35px;
+        box-shadow: none;
+        border: none;
+        font-family: 'Work Sans', sans-serif;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+    .logo {
+        width: 80px;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 60%;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+
+    &--active {
+        color: $main-orange;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    &--apply {
+        color: $main-orange;
+        background-color: white;
+        border-radius: 40px;
+        padding: 10px 35px;
+    }
+
+}
