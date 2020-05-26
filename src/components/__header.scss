@@ -48,15 +48,17 @@ nav {
 
 .nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
     width: 60%;
+    height: auto;
 }
 
 .nav__link {
     text-decoration: none;
     color: #000;
-    font-size: 16px;
+    font-size: 16px;    
 
     &--active {
         color: $main-orange;

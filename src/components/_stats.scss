@@ -1,0 +1,22 @@
+.stats {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    
+    &__img {
+        margin-top: 40px;        
+        
+        &--video {
+            transform: translateX(-30%);
+            width: 900px;
+            
+        }
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
