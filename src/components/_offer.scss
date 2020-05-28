@@ -24,8 +24,7 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        z-index: 2;
-        
+        z-index: 2;        
     }
 
     &__tile {        
@@ -34,16 +33,15 @@
         justify-content: space-between;
         align-items: center;
         width: 280px;
-        padding: 60px 15px 60px;
+        padding: 40px 15px 40px;
         margin-top: 10px;
-
         h2 {
             font-family: 'Work Sans', sans-serif;
             font-size: 30px;
             font-weight: bold;
             color: white;
         }
-
+        
         &--orange {
             background-color: #F9703A;
         }
@@ -54,4 +52,5 @@
             background-color: #FFB258;
         }
     }
+    
 }
