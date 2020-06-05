@@ -1,3 +1,78 @@
 .footer {
-    background-color: $footer-background;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 280px;
+    background-color: #252C3A;
+    font-family: 'Roboto', sans-serif;
+    color: #969595;
+
+    &__about {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 20%;
+        line-height: 150%;
+     
+    }
+
+    &__programs {
+        p {
+            margin-bottom: 30px;
+        }
+        span {
+            color: #6B6B6B;
+        }
+    }
+
+    &__learning {
+         p {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__support {
+        p {
+            width: 70%;
+        }
+
+    }
+
+    .support-form {        
+        
+        &__email {
+            width: 200px;
+            padding: 15px;            
+            color: #969595;
+            
+        }
+        
+        &__submit {
+            padding: 5px 20px;
+            height: 50px;
+            color: #ffffff;
+            background-color: $main-orange;
+            border: none;
+        }
+    }
+
+    &__title {
+        color: white;
+        font-weight: normal;
+        padding-bottom: 40px;
+        padding-top: 15px;
+    }
+}
+
+.copy {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1D232E;
+    padding: 20px;
+    color: #6B6B6B;
+    font-family: 'Roboto', sans-serif;
+
+    &__link {
+        color: #6B6B6B;
+        text-decoration: none;
+        margin-right: 25px;
+    }
 }
